@@ -1,0 +1,105 @@
+body,html{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	background-color:#e3dfd8;
+	background-image: url("https://i.imgur.com/jWr67J8.png");
+	background-size: 10% 10%;
+
+}
+
+header{
+	top:0;
+	width: 100%;
+	padding-top:1%;
+	padding-bottom: 1%;
+	background-color:#183e56;
+	color:#dde8c8;
+	font-size: 30px;
+	font-weight: bold;
+	align-items:center;
+	display:flex;
+	justify-content: center;
+
+}
+#root{
+	width: 100%;
+	height: 100%;
+}
+.bod{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	position: relative;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: #537c80;
+	
+	width: 80%;
+	height: 100%;
+	padding-top:1%;
+	padding-bottom: 1%;
+
+}
+.content{
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat; 	
+	align-items:center;
+	display:flex;
+	justify-content: center;
+}
+.top{
+	top:-3%;
+}
+.bot{
+	bottom:-3%;
+}
+img{
+	width:40%;
+	height: auto;
+	min-width: 30%;
+	min-height: auto;
+}
+button{
+/*	margin-left: 42%;
+	margin-right: 42%;
+	margin-top: 3%;
+	margin-bottom: 3%;*/
+	margin:2%;
+	width: 95%;
+	font-size: 20px;
+	padding: 2%;
+	background-color: #f98946;
+	border: 1px solid green;
+	border-radius: 8px;
+
+}
+.top, .bot{
+	position: absolute;
+	color: white;
+	font-weight: 900;
+	text-shadow:
+	-2px -2px 0 #000,  
+	2px -2px 0 #000,
+	-2px 2px 0 #000,
+	2px 2px 0 #000;
+	font-size: 30px;
+	font-family: Impact, Charcoal, sans-serif;
+	
+}
+.forms{
+	position: relative;
+	align-items:center;
+	display:flex;
+	justify-content: center;
+}
+input[type=text]{
+	font-size: 20px;
+	padding: 1%;
+	border-radius: 5px;
+	margin: 1%;
+	width: 45%;
+}
