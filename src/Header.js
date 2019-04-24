@@ -3,7 +3,7 @@ import React from "react"
 function Header(){
 	return(
 		<header>
-			Meme Generators
+			Meme Generator
 		</header>
 	)
 }
