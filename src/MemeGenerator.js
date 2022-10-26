@@ -13,7 +13,7 @@ class MemeGenerator extends Component{
 		this.handleSubmit = this.handleSubmit.bind(this)
 	}
 	componentDidMount(){
-		console.log(process.env.REACT_SAMPLE_ENV);
+		console.log(process.env.REACT_APP_SAMPLE_ENV);
 		fetch("https://api.imgflip.com/get_memes")
 		.then(response => response.json())
 		.then(response => {
